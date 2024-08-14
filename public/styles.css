@@ -1,0 +1,158 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ffffff00;
+    color: #000;
+    padding: 15px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #dc3545;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilos da Seção de Formulário */
+#product-form-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#product-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #dc3545;
+}
+
+button.remove-button {
+    background-color: blue;
+}
+
+button.remove-button:hover {
+    background-color: #c82333;
+}
+
+/* Estilos da Tabela */
+#product-list-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+thead th {
+    border-bottom: 2px solid #ddd;
+}
+
+.table-title {
+    background-color: #e9ecef;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td, th {
+    vertical-align: middle; /* Alinha o conteúdo verticalmente no centro */
+}
+
+td button {
+    display: block; /* Garante que o botão seja tratado como um bloco */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.remove-quantity {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: right;
+}
